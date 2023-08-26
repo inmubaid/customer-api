@@ -47,7 +47,7 @@ output application/json
 	customerId : attributes.uriParams.customerId
 }]]]></db:input-parameters>
 		</db:select>
-		<ee:transform doc:name="Transform Message" doc:id="00086bd0-7b31-45bb-ab54-c1904239346c" >
+		<ee:transform doc:name="Transform Message - 1" doc:id="00086bd0-7b31-45bb-ab54-c1904239346c" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
